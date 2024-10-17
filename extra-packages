@@ -1,9 +1,11 @@
+# mpd stuff
 mpc
 mpd
 mpd-mpris
 mpd-openrc
 ncmpcpp
 
+# instant distrobox-enter
 alpine-base
 bash
 bash-completion
