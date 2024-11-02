@@ -1,4 +1,77 @@
+# Stuff I actually want
 mpc
 mpd
-mpdris2
+mpd-mpris
 ncmpcpp
+
+# Stuff Distrobox pulls in on init anyway
+# everything in apk search -q mesa-vulkan mesa-dri
+# grabbed from https://github.com/89luca89/distrobox/blob/main/distrobox-init#L629
+mesa-dri-gallium
+mesa-vulkan-ati
+mesa-vulkan-intel
+mesa-vulkan-layers
+mesa-vulkan-swrast
+
+
+# Stuff Distrobox pulls in on init anyway
+# everything in apk search -qe procps
+# grabbed from https://github.com/89luca89/distrobox/blob/main/distrobox-init#L629
+procps-compat
+procps-compat-dev
+procps-compat-libs
+procps-ng
+procps-ng-dev
+procps-ng-doc
+procps-ng-lang
+
+bash-completion
+docs
+gcompat
+libc-utils
+lsof
+man-pages
+mandoc
+musl-utils
+openssh-client-default
+pinentry
+tar
+vte3
+which
+
+bash
+bc
+bzip2
+coreutils
+curl
+diffutils
+findmnt
+findutils
+gnupg
+gpg
+iproute2
+iputils
+keyutils
+less
+libcap
+mount
+ncurses
+ncurses-terminfo
+net-tools
+pigz
+rsync
+shadow
+sudo
+tcpdump
+tree
+tzdata
+umount
+unzip
+util-linux
+util-linux-login
+util-linux-misc
+vulkan-loader
+wget
+xauth
+xz
+zip
