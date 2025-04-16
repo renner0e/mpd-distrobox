@@ -1,8 +1,13 @@
 # Stuff I actually want
 mpd
 mpd-mpris
+mpdris2
+avahi
+openrc
+playerctl
 
 # Stuff Distrobox pulls in on init anyway
+# so if you don't need distrobox enter then you can remove all this stuff below here
 # everything in apk search -q mesa-vulkan mesa-dri
 # grabbed from https://github.com/89luca89/distrobox/blob/main/distrobox-init#L629
 mesa-dri-gallium
