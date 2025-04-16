@@ -1,8 +1,6 @@
 # Stuff I actually want
-mpc
 mpd
 mpd-mpris
-ncmpcpp
 
 # Stuff Distrobox pulls in on init anyway
 # everything in apk search -q mesa-vulkan mesa-dri
